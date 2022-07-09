@@ -18,6 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Slf4j
 @Component
+// 옵션1
 public class OrderCreateHelper {
 
     private final OrderDomainService orderDomainService;
